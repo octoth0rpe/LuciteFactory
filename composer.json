@@ -3,11 +3,10 @@
     "type": "library",
     "require-dev": {
         "laravel/pint": "^1.17",
-        "phpunit/phpunit": "^11.3",
-        "lucite/container": "^0.0.2"
+        "phpunit/phpunit": "^11.3"
     },
     "license": "MIT",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "autoload": {
         "psr-4": {
             "Lucite\\Factory\\": "src/"
@@ -20,7 +19,7 @@
         }
     ],
     "require": {
-        "psr/container": "^2.0"
+        "lucite/container": "~0.0"
     },
     "scripts": {
         "format": "pint --preset psr12",
